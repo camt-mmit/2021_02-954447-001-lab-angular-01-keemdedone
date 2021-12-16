@@ -7,10 +7,6 @@ const routes: Routes = [
 path:'hello-world',
 component: HelloWorldComponent,
   },
-{
-path:'profile',
-component: HelloWorldComponent,
-  },
 ];
 
 @NgModule({
