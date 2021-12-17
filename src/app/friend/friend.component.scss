@@ -1,15 +1,11 @@
 table,th,td{
   border: 1px solid black;
+  padding: 5px 2px 5px 2px;
 }
 
 table{
   border-collapse: collapse;
+  margin: auto;
+  height: fit-content;
+  width: 50%;
 }
-
-a {
-  color: blue;
-  text-decoration: none;
-  border: 1px solid blue;
-  border-radius: 4px;
-}
-

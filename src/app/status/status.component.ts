@@ -9,7 +9,6 @@ export class StatusComponent implements OnInit{
 
   // eslint-disable-next-line @angular-eslint/no-empty-lifecycle-method
   ngOnInit(): void {
-    const date1 = new Date('December 17, 1995 03:24:00');
   }
 
   cookie = navigator.cookieEnabled;
@@ -18,5 +17,5 @@ export class StatusComponent implements OnInit{
   maxTouch = navigator.maxTouchPoints;
   userAgent = navigator.userAgent;
   processor = navigator.hardwareConcurrency;
-  timeStamp = Date();
+  timeStamp = new Date();
   }

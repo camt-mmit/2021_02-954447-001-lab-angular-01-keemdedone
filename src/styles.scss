@@ -1,4 +1,15 @@
 html {
   font-family : sans-serif;
   font-size: 16px;
+  text-align:center;
+  }
+
+  .cmd-lab-button>a{
+    color: blue;
+    text-decoration: none;
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin-left: 0.25ch;
+    margin-top: 0.25ch;
+    padding: 1mm 1mm 1mm 1mm;
   }
