@@ -1,0 +1,28 @@
+table,th,th{
+  width: max-content;
+}
+
+th,td{
+  padding: 1ch 1ch 1ch 1ch;
+  width: max-content;
+}
+
+th{
+  font-weight: bold;
+  font-size: 5mm;
+}
+
+
+td>b::after{
+  content: '::';
+  font-size: 5mm;
+  margin-left: 0.5ch;
+  margin-right: 0.5ch;
+  font-weight: bold;
+  color: blue;
+}
+
+.info-status{
+  text-align: left;
+  margin-left: 2.5ch;
+}
