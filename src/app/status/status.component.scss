@@ -14,7 +14,7 @@ th{
 
 
 td>b::after{
-  content: '::';
+  content: '>>';
   font-size: 5mm;
   margin-left: 0.5ch;
   margin-right: 0.5ch;
@@ -26,3 +26,4 @@ td>b::after{
   text-align: left;
   margin-left: 2.5ch;
 }
+
