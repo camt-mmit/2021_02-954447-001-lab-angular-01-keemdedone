@@ -1,0 +1,29 @@
+table,th,td{
+  border: 1px solid black;
+  padding: 10px 2px 10px 2px; //H,L,B,R
+}
+
+table{
+  border-collapse: collapse;
+  margin: auto;
+  height: fit-content;
+  width: 50%;
+}
+
+.cmd-lab-button>a{
+  color: blue;
+  text-decoration: none;
+  border: 3px solid blue;
+  border-radius: 10px;
+  margin-left: 0.25ch;
+  margin-top: 0.25ch;
+  padding: 1mm 1mm 1mm 2mm;
+}
+
+.cmd-lab-button>a:hover{
+  color: aliceblue;
+}
+
+th{
+  background-color: coral;
+}

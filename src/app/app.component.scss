@@ -1,0 +1,13 @@
+a {
+  text-decoration: none;
+  border: 1px solid blue;
+  border-radius: 4px;
+  margin-left: 4px;
+  padding: 0.5ch 0.5ch 0.5ch 0.5ch;
+  font-style: solid;
+  font-size: 5mm;
+}
+
+a.st-active {
+  background-color: silver;
+}
