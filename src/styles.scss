@@ -4,6 +4,12 @@ html {
   text-align:center;
   }
 
-a:hover{
-  background-color: skyblue;
+a{
+  color: blue;
 }
+
+a:hover{
+    background-color: skyblue;
+    color: aliceblue;
+}
+
